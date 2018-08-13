@@ -1,0 +1,49 @@
+/*save this file with .css extension */
+/* id has more precedence than class and element*/
+/* class has more precedence than element*/
+/* ........................................*/
+/* selection by element */
+p{
+	background-color: black;
+	color: white;
+}
+/* ........................................*/
+/* selection by class- uses a dot
+two elements can have the same class.
+good for grouping */
+.para{
+	background-color: black;
+	color: white;
+}
+/* ........................................*/
+/* selection by id- unique to an element - uses # */
+#para{
+	background-color: black;
+	color: white;
+}
+/* ........................................*/
+/*combinators*/
+
+/*descendants - (space between both element selectors)*/
+div p {
+	background-color: white;
+	color:red;
+	}
+/* ........................................*/
+/*immediate child - (> symbol between both element selectors)*/
+div>p {
+background-color: white;
+color:red;
+}
+/* ........................................*/
+/*adjacent sibling - (+ symbol between both element selectors)*/
+div+p {
+background-color: white;
+color:red;
+}
+/* ........................................*/
+/*immediate child - (~ symbol between both element selectors)*/
+div~p {
+	background-color: white;
+	color:red;
+	}

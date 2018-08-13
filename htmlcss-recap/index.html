@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>RECAP of CSS</title>
+
+	<!-- linking external style sheet, good practise -->
+	<link rel="stylesheet" href="css/mystyle.css"> 
+	<!-- Internal stylesheet has more priority than external sheet whenplaced here after external sheet link-->
+	<style>
+		body {
+		background-color: red;
+		color:white;
+		}
+	</style>
+
+  </head>
+
+  <!-- Inline style-has the higest priority, though use of it is not recommended -->
+  <body style="background-color:pink;color:red;" > 
+ 	 
+ 	<div>
+		 <p class="para" id="para1"> Lorem ipsum dolor sit amet
+		 </p> <!--descendants of div--> <!-- child of div -->
+		 <p class="para" id="para2"> Lorem ipsum dolor sit amet
+		 </p> <!--descendants of div--> 
+		 <span>
+			<p class="para" id="para3"> Lorem ipsum dolor sit amet
+			</p> <!--not a child of div-->
+		 </span>
+	</div>
+
+		<p class="para" id="para4">
+			Lorem ipsum dolor sit amet
+		</p><!--adjacent sibling of div-->
+		<p class="para" id="para5">
+			Lorem ipsum dolor sit amet
+		</p><!--general sibling of div-->
+
+</body>
+</html>
+descendants ( space)
+child (>)
+adjacent sibling (+)
+general sibling (~)
+
+
+
+
+
+
+
+
