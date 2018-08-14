@@ -1,0 +1,18 @@
+
+body {
+    background-image: url("../image/landscape.jpg"); /* background image */
+   background-repeat: no-repeat; 
+   /*background-repeat: repeat-y;*/
+    background-size: 100%;
+    /* background-position: right top;*/
+    background-attachment: fixed;
+
+   	}
+   	h1 {
+   		color:red;
+   		border-style: solid ;
+   		border-width: medium; /* 1 em= 16 px */
+   		border-radius: 2px;
+   		border-color: red green ;
+   		border-top: double white;
+   	}
