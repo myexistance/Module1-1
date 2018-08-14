@@ -1,6 +1,13 @@
-
 body {
-    background-image: url("../image/landscape.jpg"); /* background image */
+   /* images online needs full url*/
+    background-image:  url("https://raw.githubusercontent.com/bitdegree/banners/7f6c1bbe/learn/pom-laptop.png");
+    background-image:  url("http://www.gstatic.com/webp/gallery/1.jpg");/*overrides the first image*/
+    background-image:  url("https://www.gstatic.com/webp/gallery3/1.png");/*overrides the first two images*/
+
+/*images in the project folder*/
+    background-image: url("../image/landscape.jpg"); /* image inside image folder */
+  /* background-image: url("../background.jpg");  image inside main folder */
+  background-image: url("../css/background.jpg"); /* image inside css folder */
    background-repeat: no-repeat; 
    /*background-repeat: repeat-y;*/
     background-size: 100%;
