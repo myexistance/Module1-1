@@ -1,0 +1,80 @@
+   h1{
+    margin-left: 100px;
+   }
+   	div{
+      width: 50%;
+      height:540px;
+      background-color: cyan;
+      margin:auto;
+      
+    }
+    div>p {
+      
+      padding: 100px;
+      border-style:solid; /* must be defined to use other properties*/
+      border-width: 10px ;
+      border-color: black;
+      outline: 10px solid  red; /* style must be defined to use other properties*/
+       /* outline-color: invert;*/
+      color:blue;
+      text-align: center;
+      text-decoration: overline;
+        /*text-decoration: line-through;*/
+        /*text-decoration: underline;*/ /*generally normal text should not be underlined,else confuses with link*/
+        text-transform: uppercase;
+        text-transform: lowercase;
+        text-transform: capitalize;
+        text-shadow: 5px 2px red;
+        font-size: 7vw; /* vw for responsiveness - 1vw =1%viewport width*/
+        word-spacing: 20px;
+        letter-spacing: 5px;
+        font-family: "Monoype corsiva", Calibiri, arial black;/*note the first two types are errotic*/
+        font-style: italic;
+}
+
+
+a {
+    color: hotpink;
+
+}
+    
+    /* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+}
+
+/* visited link */
+a:visited {
+    color: green;
+    text-decoration: none;
+     background-color: grey;
+     color: white;
+    padding: 14px 25px;
+    text-align: center; 
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;/*hover must come after a:link and a:visited*/
+    text-decoration: underline;
+     background-color: grey;
+     color: white;
+    padding: 14px 25px;
+    text-align: center; 
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: underline;
+     background-color: grey;
+     color: white;
+    padding: 14px 25px;
+    text-align: center; 
+}
+    
