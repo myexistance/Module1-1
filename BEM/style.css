@@ -4,7 +4,7 @@
   background-color: white;
   color: #888;
   border-radius: 5px;
-  display: inline-block;
+  display: inline-block;/* allows width and height on element, top andbottom margins/paddings are respected, element can sit nedt to other elements */
   margin: 10px;
   font-size: 18px;
   text-transform: uppercase;
