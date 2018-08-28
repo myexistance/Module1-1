@@ -1,0 +1,21 @@
+body{
+  background: #222;
+}
+#news-article{
+  background: #ddd;
+
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 10px;
+  color: #333;
+  width: 90%;
+}
+#news-article h3{
+  font-size: 20px;
+  color: #111;
+}
+#news-article .content{
+  font-family:"Monotype Corsiva";
+  color: blue;
+
+}
