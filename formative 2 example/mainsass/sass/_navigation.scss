@@ -1,0 +1,37 @@
+.nav{
+	background-color:cyan;
+	height: 75px;
+	width:100%
+
+}
+#logo{
+	height:50px;
+	width:50px;
+	padding:10px;
+	float:left;
+}
+ul{
+	float:right;
+}
+li{
+	display:inline-block;
+	padding: 10px;
+
+
+}
+button{
+	width:100px;
+	background-color:blue;
+	color:white;
+}
+div.nav:after{
+	clear:both;
+}
+@media only screen and (max-width:300px){
+	button{
+		width:50px;
+		}
+		li{
+		padding:0;
+		}
+}
